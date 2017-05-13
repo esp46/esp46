@@ -17,29 +17,29 @@ print """Qui est le plus pauvre?\n
 	2. Hollande
 	3. Renaud\n"""
 rep = False
-while not rep:	
+while not rep:
 	answer2=input('Votre reponse:')
- 
+
 	if answer2 !=3:
 		print "non!"
 	else:
 		print "Pauvre Renaud"
 		rep = True
-    
+
 print """En quel language est coder ce jeu? \n
     1.c++
     2.python
     3.html_n"""
 rep = False
-while not rep:    
+while not rep:
 	answer3=input('Votre reponse:')
-    
+
 	if answer3 != 2:
 		print "deso mais non"
 	else:
 		print "dis moi tu est un/une petit(e) genie"
 		rep = True
-		
+
 print """Quelle est la capital de france ? \n
 	1.Paris
 	2.Bordeaux
@@ -55,13 +55,13 @@ while not rep:
 	else:
 		print "enfin un(e) personne qui sais sa geo"
 		rep = True
-	
+
 print """Quelle est le nombre de continent? \n
 	1
 	11
 	6
 	666
-	5.c koi un kontinant?\n"""
+	con.c koi un kontinant?\n"""
 rep = False
 while not rep:
 	answer4=input('Votre reponse:')
@@ -73,17 +73,28 @@ while not rep:
 		rep = True
 
 print """la moitier de deux plus deux? \n
-	1.2
-	2.3
-	3.4\n"""
+	2
+	3
+	4\n"""
 rep = False
 while not rep:
 	answer5=input('Votre reponse:')
 
-	if answer5 != 2:
+	if answer5 != 3:
 		print "..."
 	else:
 		print "bravo"
 		rep = True
+
+print """Attention une grosse question...\n
+
+
+
+
+
+
+
+
+
 
 
